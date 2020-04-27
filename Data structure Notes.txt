@@ -130,3 +130,17 @@ OPERATORS on a DICTIONARY in python
 	test_dic.get(k)				-- returns the value associated with the key 'k'
 
 	test_dic.get(k, alts)			-- returns the value associated with the key 'k', and if no value is not found, it returns the default alt message
+
+
+METHODS in a LIST in python
+	test_list.append(i)			-- appends element 'I' to the end of the list
+	test_list.insert(I, item)		-- inserts the item to the 'I' position in the list
+	test_list.pop()				-- removes the last element from the list
+	test_list.pop(u)			-- removes and returns the element u from the list
+	test_list.sort()			-- sorts the list in ascending order
+	test_list.reverse()			-- reverses the elements in the list
+	del test_list[u]			-- deletes the element at index u in the list
+	test_list.index(item)			-- returns the index of the item in the list
+	test_list.count(item)			-- returns the number of occurrences of the item in the list
+	test_list.remove(item)			-- removes all the occurrences of the item from the list
+	
