@@ -49,5 +49,4 @@ for i in wordlist:
 print(letterlist)
 
 #using list comprehension to do the above task
-letterlist = [i for i in wordlist if letterlist.__contains__(i)==False]
-print(letterlist)
+print([letterlist.append(i) for i in wordlist if i in letterlist])
