@@ -1,0 +1,8 @@
+#URL --> Uniform resource locator
+an address of a unique resource on the internet
+API --> Application programming interface, allows 2 systems to communicate. Each API has documentation on how each component talks to each other
+API are categorized in to SOAP and REST based API. Both of them are used to communicate with the web.
+SOAP --> these API communicate by means of an xml
+REST --> these API communicate by means of URL. URLs are used to receive and send information.
+The following 4 HTTP 1.1 verbs are used to perform actions --> GET, POST, PUT, DELETE
+the response of a REST based web service is in the form of a JSON/CSV/RSS etc.
