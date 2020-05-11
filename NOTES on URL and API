@@ -20,4 +20,7 @@ The following 4 HTTP 1.1 verbs are used to perform actions --> GET, POST, PUT, D
 the response of a REST based web service is in the form of a JSON/CSV/RSS etc.
 
 END POINTS --> the area where the REST API send requests and receive response from are called end points. Since end points are the location of
-the resources that the APIs seek, it is important that end points are always kept available.
+                the resources that the APIs seek, it is important that end points are always kept available.
+
+API KEYS   --> codes that are passed using the URL to gain access to contents on the web server. This is a security measure used to ensure that
+                only authorized folks get access to the content
