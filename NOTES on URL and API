@@ -1,5 +1,17 @@
 #URL --> Uniform resource locator
 an address of a unique resource on the internet
+Components of URL
+http://www.example.com:80/path/to/myfile.html?key1=value1&key2=value2#SomewhereInTheDocument
+
+http://                     --> this is the protocol. HTTP can be replaced by HTTPS
+www.example.com             --> this is the domain. under the hood, this points to the IP address of the server where the call is being directed
+:80                         --> port of the server where the data resides
+/path/to/myfile.html        --> path to the location of the document within the webserver
+?key1=value1&key2=value2    --> the parameter being passed to the web sever. sometimes the API using the URL may need these parameters to process
+                                the data before returning the response to the user.
+#SomewhereInTheDocument     --> this is an anchor point, on the document. Think of an anchor as a bookmark. this will tell the URL to pull
+                                up the specific point in the document for the user
+
 API --> Application programming interface, allows 2 systems to communicate. Each API has documentation on how each component talks to each other
 API are categorized in to SOAP and REST based API. Both of them are used to communicate with the web.
 SOAP --> these API communicate by means of an xml
