@@ -6,3 +6,6 @@ SOAP --> these API communicate by means of an xml
 REST --> these API communicate by means of URL. URLs are used to receive and send information.
 The following 4 HTTP 1.1 verbs are used to perform actions --> GET, POST, PUT, DELETE
 the response of a REST based web service is in the form of a JSON/CSV/RSS etc.
+
+END POINTS --> the area where the REST API send requests and receive response from are called end points. Since end points are the location of
+the resources that the APIs seek, it is important that end points are always kept available.
